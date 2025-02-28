@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin the wheel-random picker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Spin the Wheel</h1>
+        <input type="text" id="participant" placeholder="Añadir participante">
+        <button onclick="addParticipant()">Agregar</button>
+        <button onclick="spinWheel()">Girar</button>
+        <canvas id="wheelCanvas" width="500" height="500"></canvas>
+        <ul id="participantsList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
