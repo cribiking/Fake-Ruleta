@@ -4,8 +4,14 @@ const participants = [];
 
 // Define los participantes que tendrán más probabilidad de ser elegidos
 const probabilities = {
-    "Jon": 1000,  // Juan tiene 3 veces más probabilidad de salir
-    "Sofia": 1000,  // Maria tiene 2 veces más probabilidad de salir
+    "Jon": 10000,  // Juan tiene 3 veces más probabilidad de salir
+    "Sofia": 10000,  // Maria tiene 2 veces más probabilidad de salir
+    "jon": 10000,  // Juan tiene 3 veces más probabilidad de salir
+    "sofia": 10000,
+    "marc": 10000,
+    "Marc": 10000,
+    "markush": 10000,
+    "Markush": 10000
 };
 
 function addParticipant() {
